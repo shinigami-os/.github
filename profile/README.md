@@ -2,7 +2,7 @@
 
 > *A Linux distribution you actually understand.*
 
-Kira Linux is a rolling-release, developer-oriented Linux distribution built for people who want full control over their system — without sacrificing usability. It is lean by design, transparent by default, and built to be understood and modified by its users.
+Kira Linux is a rolling-release, developer-oriented Linux distribution built for people who want full control over their system, without sacrificing usability. It is lean by design, transparent by default, and built to be understood and modified by its users.
 
 **Kira is not a distro you install and forget. It is a distro you own.**
 
@@ -10,12 +10,12 @@ Kira Linux is a rolling-release, developer-oriented Linux distribution built for
 
 ## What makes Kira different
 
-- **Shinigami kernel** — a stripped and patched Linux fork, built for responsiveness and minimal overhead. No bloat, no legacy driver noise.
-- **flux** — a custom package manager written in C, that compiles packages from source with per-package optimization flags and caches the result. Dependency-minimal by design.
-- **kotodama recipes** — the package recipe format for flux. Simple, readable, contributor-friendly.
-- **musl libc** — smaller binaries, cleaner static linking, lower memory footprint.
-- **runit** — no systemd. Ever. Fast boot, transparent service management, dead simple to modify.
-- **Wayland-first** — SwayFX as the primary desktop environment, Sleex as an officially supported alternative.
+- **Shinigami kernel** : a stripped and patched Linux fork, built for responsiveness and minimal overhead. No bloat, no legacy driver noise.
+- **flux** : a custom package manager written in C, that compiles packages from source with per-package optimization flags and caches the result. Dependency-minimal by design.
+- **kotodama recipes** : the package recipe format for flux. Simple, readable, contributor-friendly.
+- **musl libc** : smaller binaries, cleaner static linking, lower memory footprint.
+- **runit** : no systemd. Ever. Fast boot, transparent service management, dead simple to modify.
+- **Wayland-first** : SwayFX as the primary desktop environment, Sleex as an officially supported alternative.
 - **No telemetry. No user data collection. No accounts. No subscriptions.**
 
 ---
@@ -24,8 +24,8 @@ Kira Linux is a rolling-release, developer-oriented Linux distribution built for
 
 | Repo | Description |
 |---|---|
-| [`shinigami`](https://github.com/shinigami-os/shinigami) | Linux fork — Kira-specific patches and kernel config |
-| [`kira-base`](https://github.com/shinigami-os/kira-base) | Base system — musl, runit, core userland, boot |
+| [`shinigami`](https://github.com/shinigami-os/shinigami) | Linux fork : Kira-specific patches and kernel config |
+| [`kira-base`](https://github.com/shinigami-os/kira-base) | Base system : musl, runit, core userland, boot |
 | [`flux`](https://github.com/shinigami-os/flux) | Package manager source code (C) |
 | [`flux-recipes`](https://github.com/shinigami-os/flux-recipes) | kotodama package recipes |
 | [`flux-cache`](https://github.com/shinigami-os/flux-cache) | Binary cache server |
