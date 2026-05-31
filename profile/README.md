@@ -43,7 +43,7 @@ Kira Linux is a rolling-release, developer-oriented Linux distribution built for
 - flux: project scaffolding and CLI skeleton in C
 - kira-base: musl + BusyBox + runit booting a minimal interactive system in QEMU
 
-### Phase 1 — Bootable Base `IN PROGRESS`
+### Phase 1 — Bootable Base `DONE`
 - Shinigami: BORE scheduler applied, Clang ThinLTO build, boots on real hardware
 - kira-base: eudev, dhcpcd, LibreSSL, OpenSSH compiled from source against musl, SSH confirmed working
 - kira-base: ZSH as default shell with Powerlevel10k, autosuggestions, syntax highlighting
@@ -52,11 +52,13 @@ Kira Linux is a rolling-release, developer-oriented Linux distribution built for
 - First 20 kotodama recipes: essential developer tools
 - `kira-base.iso` builds and installs successfully
 
-### Phase 2 — Desktop
+### Phase 2 — Desktop `IN PROGRESS`
 - SwayFX + Waybar + Wofi + Flameshot on Wayland
 - Sleex as an officially supported alternative DE
 - Firefox recipe, Flatpak support, VS Code and Steam confirmed working
 - `kira-desktop.iso`
+- Kira Linux website
+- Kira Linux discord server
 
 ### Phase 3 — Ecosystem
 - flux compat layer (Debian container fallback via bubblewrap)
@@ -92,3 +94,4 @@ Built by [OxoGhost](https://github.com/OxoGhost01).
 ## Contact
 
 *Discord server comming soon!*
+*Website comming soon!*
